@@ -1,0 +1,383 @@
+suresh.balla3@cognizant.com
+
+
+
+-CSS Questions-
+
+
+1)  General vs  Adjacent Sibling Combinators
+	The general sibling selector selects all siblings of an element. The adjacent sibling selector selects only those siblings of an element 
+	that appear immediately after it. The descendent selector selects all elements inside of a specified element. The child selector selects only
+	he immediate children of an element.
+
+2)  CSS vs CSS3 diffrence
+	: CSS3 is the latest version of CSS .  For responsive web designing, it supports media queries.  CSS3 provides a different gradient colour like
+	 RGBA, HSLA, HSL, and other colour gradients. Text Effects and Animations , Pseudo-classes
+
+3)  Inline Elements Vs Block Elements
+	block-level element always starts on a new line and takes up the full width available. EX: The <div>, <p>,<h1> element is a block-leve
+	inline element does not start on a new line and it only takes up as much width as necessary. EX:- <span>, <img>, <a> element is inline.
+
+4)  Fixed Vs Stricky	
+	Element with position: fixed property never leaves the viewport position it was fixed to.	
+	Element with position: sticky property leaves the viewport when its parent element scrolls off the viewport.
+5)  Absolute and relative
+
+6)  Box-Model
+	box model: is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+7)  Flex concept
+	o create a flex container, we set the value of the area's container's display property to flex or inline-flex
+
+8)  Grid concept
+	A grid is a set of intersecting horizontal and vertical lines defining columns and rows. Elements can be placed onto the grid within 
+	these column and row lines
+
+9)  Display block vs visibility hidden
+	Display: total laout is removed.
+	visible: It is used to specify the element to be visible. It is a default value. 
+	hidden: Element is not visible,  but space is allocated for 
+	it on the page. 
+
+10) Opactiy
+	The opacity property sets the opacity level for an element. The opacity-level describes the transparency-level, where 1 is not transparent at all,
+	 0.5 is 50% ..
+11) z-index -> position
+	The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower 
+	stack order.
+12) pseudo elements vs pseudo class
+	A pseudo-class is a selector that selects elements that are in a specific state,
+	Pseudo-elements: ::before, ::after, ::first-line, ::first-letter
+	pseudo class : visited, :hover, :active, :first-child
+13) clear:both
+	
+14) Animations
+15) transition
+	CSS transitions allows you to change property values smoothly, over a given duration.(transition: width 2s, height 4s;)
+	
+16) transform
+	Rotate, skew, and scale three different <div> elements:div.a {
+  transform: rotate(20deg);} 	 div.b {transform: skewY(20deg)}		div.c { transform: scaleY(1.5);
+}
+
+18) Media Queries
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {...}
+
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {...}
+
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {...}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {...}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {...}
+
+20) Print in css
+	If you mention printing with CSS to many people who work on the web, print style sheets are the use that comes to mind.
+
+21) CSS Sprites
+	In short: CSS Sprites are a means of combining multiple images into a single image file for use on a website, to help with performance.
+
+22) landscape and potirate -> CSS media Queries
+	@media screen and (max-device-width: 767px) and (orientation: portrait) {
+	@media screen and (max-device-width: 767px) and (orientation: landscape) {
+23) n-child
+24) 
+
+
+
+-Javascript-
+1.call VS bind VS apply
+	call() method calls the function with a given this value and allows passing in arguments one by one separating them with commas:
+	apply() method calls the function with a given this value and allows passing in arguments as an array (or an array-like object).
+	bind() method returns a new function and allows passing in a this array and any number of arguments.
+
+2. what is Declaration and (Hoisted)
+ 	
+	Hoisting is JavaScript's default behavior of moving all declarations to the top of the 
+	current scope (to the top of the current script or the current function). 
+
+3 arrow function
+	Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows 
+	you to create functions in a cleaner way compared to regular functions.
+
+4 Closeres
+	(A closure is a function having access to the parent scope, even after the parent function has closed.)
+
+5 callback function ?
+	A callback is a function passed as an argument to another function.
+
+6. let VS const VS var
+	var declarations are globally scoped or function scoped while let and const are block scoped. · var variables can be updated and re-declared 
+	var---- using in local(it means in function scop) and it use globel level
+	let---- using in local(with in black only) and it use globel also.
+	const-- constent only
+
+7 deep copy vs shallow copy
+	A deep copy means that all of the values of the new variable are copied and disconnected from the original variable.  
+	A shallow copy:	means that certain (sub-)values are still connected to the original variable. To really understand copying, you have to get into how
+	 JavaScript stores values.
+
+8 Spread operator ... 
+	The JavaScript spread operator ( ... ) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+9 Spread vs Rest operator
+	The main difference between rest and spread is that the rest operator puts the rest of some specific user-supplied values into 
+	a JavaScript array. But the spread syntax expands iterables into individual elements.
+
+10 isNaN()
+	isNaN() returns true if a number is Not-a-Number. 
+
+11 preventDefault();
+	The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+
+12 Storages
+	sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data 
+	in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a
+	unique page session gets created and assigned to that particular tab.
+
+13 Synchronous vs Asynchronous
+	Synchronous code: 
+			runs in sequence. This means that each operation must wait for the previous one to complete before executing.
+	Asynchronous code: 	
+			runs in parallel. This means that an operation can occur while another one is still being processed.
+
+14 arrow function
+	Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner 
+	way compared to regular functions.  Arrow Functions Return Value by Default: · Arrow Function With Parameters:
+
+15 self invoke function
+	A self-invoking expression is invoked (started) automatically, without being called. Function expressions will execute automatically if the 
+	expression is followed by (). You cannot self-invoke a function declaration.
+
+16 this keyword
+	In JavaScript, the this keyword refers to an object. Which object depends on how this is being invoked (used or called).
+
+17 strict mode
+	Strict mode changes some previously-accepted mistakes into errors. JavaScript was designed to be easy for novice developers, and sometimes it
+	 gives operations which should be errors non-error semantics. Sometimes this fixes the immediate problem, but sometimes this creates worse 
+	problems in the future.
+
+18 what is constructor
+	A constructor is a special function that creates and initializes an object instance of a class. In JavaScript, a constructor gets called when 
+	an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.
+
+19 can we create class in javascript
+	JavaScript is not a class-based object-oriented language. But it still has ways of using object oriented programming
+
+20 what is javascript
+	]JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. 
+	Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+		
+21 difference b/w == and ===.
+	The main difference between the == and === operator in javascript is that the == operator does the type conversion of the operands before 
+	comparison, whereas the === operator compares the values as well as the data types of the operands.
+
+22 	constructor :-
+		 	In JavaScript, a constructor gets called when an object is created using the new keyword. 
+			 The purpose of a constructor is to create a new object and set values for any existing object properties.
+
+23 anonymous function
+	Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function ...
+
+24.How may to create a object
+	1 Creating js objects with object literal
+		let car = {
+    		name : 'GT',
+    		maker : 'BMW',
+    		engine : '1998cc'
+	};
+		// Property accessor
+		console.log(car.name); //dot notation
+		console.log(car['maker']); //bracket notation
+
+		// Adding property to the object
+			car.brakesType = 'All Disc';
+			console.log(car);
+
+	2 Adding methods to the car object
+		let car = {
+    		name : 'GT',
+    		maker : 'BMW',
+    		engine : '1998cc'
+ 		start : function(){
+        		console.log('Starting the engine...');
+    			}
+		};
+			car.start();
+		// Adding method stop() later to the object
+		car.stop = function() {
+   			 console.log('Applying Brake...');  
+			}
+		car.stop();
+	};
+
+	3 New keyword to create an object
+		let car  = new vehicle('GT','BMW','1998cc');
+		// Property accessors
+			console.log(car.name);
+			console.log(car.maker);
+			console.log(car['engine']);
+
+	4 Simple function
+		function vehicle(name,maker,engine){
+    			this.name = name;
+    			this.maker = maker;
+    			this.engine = engine;
+		}
+
+1proto vs prototype
+	prototype is a property of a Function object. It is the prototype of objects constructed by that function.
+	__proto__ is an internal property of an object, pointing to its prototype.
+2.destructring
+	The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties
+	 from objects, into distinct variables. [ a b ...rest]=[10,20,30,40,50]
+
+
+5.primitive and non primitive data type
+==  vs ===
+
+7.promisses
+	A JavaScript Promise object contains both the producing code and calls to the consuming code:
+
+	
+	
+
+12.event bubbling, event capturing
+	Event bubbling and capturing are two ways of event propagation in the HTML DOM API,
+	event.target — The bubbling principle is simple. When an event happens on an element, it first runs the handlers on it, then on its parent, 
+	then all the way ...
+13.Event handlers
+	Event handler	Applies to:
+	onBlur	Button, Checkbox, FileUpload, Layer, Password, Radio, Reset, Select, Submit, Text, TextArea, Window
+	onChange	FileUpload, Select, Text, TextArea
+	onClick	Button, Document, Checkbox, Link, Radio, Reset, Submit
+	onDblClick	Document, Link
+	
+
+14.window events
+windows.onload()
+document.reddy()
+
+16.History
+17.How to remove the first element in array
+	To add an HTML element in your JavaScript program, you can use the appendChild() and insertBefore() method, whereas, for deleting any specific 
+	HTML element or a child HTML node, remove() and removeChild() methods are used according to your requirements.
+18.Array menhods
+19.map, filter
+
+24.stopProgration();
+	stopPropagation() The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing
+	 and bubbling phases. It does not, however, prevent any default behaviors from occurring; for instance, clicks on links are still processed.
+25.null & undefined
+26.notdefined & undefined
+27.Set time out & set interval
+
+29.Webworks
+	A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page.
+
+30.Destructuring
+
+34. pass by value vs pass byrefrence
+   In pass by value 
+	in JavaScript, a copy of the original variable is created so any changes made to the copied variable do not affect the original variable. 
+   In pass by reference 
+	in JavaScript, we pass the reference of the actual parameter. No copy is created in the memory.
+35. scop chain
+	Scope Chain means that one variable has a scope (it may be global or local/function or block scope) is used by another variable or function 
+	having another scope (may be global or local/function or block scope). 
+36. bind function
+	With the bind() method, an object can borrow a method from another object.
+	The bind() method creates a new function, when invoked, has the this sets to a provided value. The bind() method allows an object to borrow 
+	a method from another object without making a copy of that method. This is known as function borrowing in JavaScript.
+37. currying in javascript
+	Currying is helpful when you have to frequently call a function with a fixed argument. Considering, for example,
+	 the following function: If we want to define the function error , warn , and info , for every type, we have two options. 
+	Currying provides a shorter, concise, and more readable solution.
+
+47.JSON.parse()
+	The JSON.parse() method parses a string and returns a JavaScript object.
+	The string has to be written in JSON format.
+	The JSON.parse() method can optionally transform the result with a function.
+48.JSON.stringify()
+	The JSON.stringify() method converts JavaScript objects into strings.
+	When sending data to a web server the data has to be a string.
+
+
+50 what is regular expretion
+
+51 memory manegement in javascript
+
+
+
+-HTML-
+Meta tag
+HTML4 VS HTML5
+HTML Attributes
+symantic tag vs non
+canvas
+	Canvas: The HTML element is used to draw graphics on the fly, via scripting (usually JavaScript). The element is only a container for graphics.
+	 You must use a script to actually draw the graphics. Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+svg
+	SVG: The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web
+
+Diffrence b/w tag and elements
+image maping
+copywrite symbol( HTML Entity)
+validations ?
+Patterns
+HTML Stucture
+Why we use the section and artical
+empty elements(tags)
+iframe
+	The HTML <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. Syntax.
+Multi media
+	<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+HTML entities
+DOC type
+Tabel attributes
+figure vs figure caption
+data list tag
+
+
+Bootstrap:
+==========
+Difference B/w Boot-4 & Boot-5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
